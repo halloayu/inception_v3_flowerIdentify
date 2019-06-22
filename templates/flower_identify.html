@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <title>Flower Identify</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+         <link rel="stylesheet" href="{{static_url('css/style.css')}}" type="text/css">
+         <link rel="icon" href="{{static_url('images/icon.ico')}}" sizes="50x40"/>
+         <style type="text/css">
+
+         </style>
+    </head>
+
+    <body>
+         <div id="fi">
+              <div class="fi-body" id="fi_body">
+                   <div class="fi-canvas"><canvas id="canvas" width="299px" height="299px"></canvas></div>
+                   <div id="fi-result"><h4>
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎来到“网页版拍照识花”小程序，本程序一共实现了五种花的识别，分别是月季、绣球、万寿菊、三色堇、石榴花。
+                   </h4></div>
+              </div>
+              <div class="fi-footer">
+                   <div class="message"><h5 id="message"></h5></div>
+                   <div class="fi-action">
+                       <a class="file"><p class="take-photo"><img src="{{static_url('images/camera.jpg')}}" id="camera_logo">&nbsp;&nbsp;拍照识花</p><input type="file" id="take-picture" accept="image/*" /></a>
+                   </div>
+              </div>
+             <canvas id="canvas2"></canvas>
+         </div>
+         <script src="{{static_url('js/flower-identify.js')}}"></script>
+         <script src="{{static_url('js/exif.js')}}"></script>
+         <script src="{{static_url('js/jquery-1.9.1.min.js')}}"></script>
+    </body>
+</html>

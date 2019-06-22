@@ -1,0 +1,78 @@
+
+ body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      user-select: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+ }
+ h5 {
+      margin: 0;
+      padding: 0
+ }
+ #fi {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      font-size: 1em;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;
+      padding: 16px;
+ }
+ .fi-body {
+      position: relative;
+      flex: 1;
+      border: 1px solid #f4f4f4;
+ }
+ .fi-result { margin:5px 15px 5px 15px;}
+
+ #canvas2{
+      display: none;
+ }
+
+ .fi-canvas{ margin:15px 0px 10px 28px; }
+
+
+/* -----------fi-footer-------------------*/
+
+.fi-footer { margin:25px 0 20px 0 }
+.message { text-align:center; }
+.fi-action { text-align:center; margin-top:20px}
+.file {
+    position: relative;
+    display: inline-block;
+    background: #ff7900;
+    border: 2px solid transparent;
+    border-radius: 28px;
+    padding: 0px 18px;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-indent: 0;
+    font-size:25px;
+    height:50px;
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+.take-photo{margin-top:8px;}
+
+ #formData{
+      display: none;
+ }
