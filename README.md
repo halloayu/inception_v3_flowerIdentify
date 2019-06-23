@@ -12,7 +12,7 @@ InceptionV3网络是基于InceptionV2上的再次改造，主要在两个方面�
 论文地址*https://arxiv.org/abs/1512.00567*
 
 ## 运行
-![image](https://github.com/zy1998/hdrPro/blob/master/static/images/run.JPG)
+![image](https://github.com/zy1998/inception_v3_flowerIdentify/blob/master/static/images/run.JPG)
 
 
 ## 预览图
