@@ -24,9 +24,3 @@ InceptionV3网络是基于InceptionV2上的再次改造，主要在两个方面�
 ![image](https://github.com/zy1998/inception_v3_flowerIdentify/blob/master/static/images/%E7%BB%A3%E7%90%83%E8%8A%B1%E8%AF%86%E5%88%AB%E7%BB%93%E6%9E%9C.png) <br>
 手机端拍照识别"石榴花"的结果: <br>
 ![image](https://github.com/zy1998/inception_v3_flowerIdentify/blob/master/static/images/%E7%9F%B3%E6%A6%B4%E8%8A%B1%E8%AF%86%E5%88%AB%E7%BB%93%E6%9E%9C.png)
-
-
-
-## 作者与联系方式
-*Yu Zeng* <br>
-*2194877791@qq.com*
